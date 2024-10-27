@@ -1,0 +1,27 @@
+body {
+    background-color: peachpuff;
+    font-family: "open sans", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: peachpuff;
+    padding: 5px 0;
+}
+
+header img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer p {
+    text-align: center;
+    background-color: peachpuff;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: blue;
+    font-size: 8px;
+}
