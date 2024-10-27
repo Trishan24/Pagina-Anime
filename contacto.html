@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Anime</title>
+        <title>Contacto</title>
         <link rel="stylesheet" href="style_contacto.css">
     </head>
     <body>
@@ -10,7 +10,49 @@
             <div class="logo-anime">
                 <img src="https://raw.githubusercontent.com/Trishan24/Pagina-Anime/refs/heads/main/Imagenes/Logo-Anime.png" alt="Logo de Anime">
             </div>
+           <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="anime.html">Anime</a></li>
+                    <li><a href="animes_emision.html">Animes en Emision</a></li>
+                    <li><a href="ovas_peliculas.html">Ovas y peliculas</a></li>
+                    <li><a href="lista.html">Lista de anime para ver</a></li>
+                </ul>
+            </nav>
         </header>
+
+        <section>
+            <h2>¡Contáctanos!</h2>
+            <div class="form-container">
+                <div class="form-row">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-row">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-row">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-row">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="form-row privacy">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label for="privacidad">Acepto la política de privacidad</label>
+                </div>
+                <div class="submit-container">
+                    <input type="submit" value="Enviar" id="submitButton">
+                </div>
+            </div>
+        </section>
 
         <footer>
             <p>© 2024 Anime. Todos los derechos reservados.</p>

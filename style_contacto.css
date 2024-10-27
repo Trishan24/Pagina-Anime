@@ -15,6 +15,126 @@ header img {
     margin: 0 auto 10px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: orangered;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: orange;
+    font-size: 24px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 8px;
+    background-image: url('path-to-image.png'); /* Cambia a la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Cambiado a negro para el texto */
+    position: relative;
+}
+
+.form-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(251, 203, 120); /* Ajuste de superposición clara para mayor contraste */
+    z-index: 1;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.form-row label {
+    flex: 1;
+    margin-right: 10px;
+    color: black; /* Cambiado a negro para el texto de las etiquetas */
+}
+
+.form-row input, .form-row textarea {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black; /* Texto negro en los campos de entrada */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo claro en los campos para mayor legibilidad */
+}
+
+.form-row.privacy {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+    gap: 10px; /* Espacio entre la casilla y el texto */
+    position: relative;
+    z-index: 2;
+}
+
+input[type="checkbox"] {
+    margin: 0; /* Eliminar cualquier margen de la casilla de verificación */
+    transform: scale(1.2); /* Ajuste opcional para hacer la casilla un poco más grande */
+}
+
+.submit-container {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+
 footer p {
     text-align: center;
     background-color: peachpuff;
