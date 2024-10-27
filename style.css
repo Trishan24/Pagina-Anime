@@ -42,11 +42,18 @@ main {
     padding: 20px;
 }
 
-h1, h2 {
+h1 {
     text-align: justify;
     margin: 20px 0;
-    color: orange;
+    color: orangered;
     font-size: 28px;
+}
+
+h2 {
+    color: orange;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 26px;
 }
 
 p {
@@ -71,16 +78,16 @@ ul a {
 .genre {
     flex: 1 1 25%;
     background-color: orange;
-    border: 1px solid peachpuff;
+    border: 1px solid orange;
     padding: 15px;
     box-sizing: border-box;
 }
 
 h3 {
+    color: green;
     text-align: center;
-    color: orangered;
-    margin-bottom: 14px;
-    font-size: 22px;
+    margin: 20px 0;
+    font-size: 24px;
 }
 
 table {

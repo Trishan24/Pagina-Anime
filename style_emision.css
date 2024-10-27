@@ -15,6 +15,55 @@ header img {
     margin: 0 auto 10px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: orangered;
+    font-size: 28px;
+}
+
+h2 {
+    color: orange;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 26px;
+}
+
+h3 {
+    color: green;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
 footer p {
     text-align: center;
     background-color: peachpuff;
