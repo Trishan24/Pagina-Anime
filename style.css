@@ -1,0 +1,117 @@
+body {
+    background-color: peachpuff;
+    font-family: "open sans", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: peachpuff;
+    padding: 5px 0;
+}
+
+header img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: justify;
+    margin: 20px 0;
+    color: orange;
+    font-size: 28px;
+}
+
+p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+ul {
+    color: black;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre {
+    flex: 1 1 25%;
+    background-color: orange;
+    border: 1px solid peachpuff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    color: orangered;
+    margin-bottom: 14px;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 30px 0; 
+}
+
+.anime-cell {
+    border: 5px solid peachpuff;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.anime-cell img {
+    width: 250px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+    background-color: peachpuff;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color: blue;
+    font-size: 8px;
+}
