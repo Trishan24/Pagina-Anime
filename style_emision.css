@@ -64,6 +64,13 @@ p {
     margin: 20px 0;
 }
 
+h4 {
+    color: grey;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
 footer p {
     text-align: center;
     background-color: peachpuff;
